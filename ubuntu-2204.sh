@@ -28,7 +28,7 @@ install_docker () {
 
 	#INSTALL DOCKER
 	apt-get update
-	apt-get install docker-ce docker-ce-cli container.io
+	apt-get install docker-ce docker-ce-cli containerd.io
 
 	#usermod -aG docker $USER
 

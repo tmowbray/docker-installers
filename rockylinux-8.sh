@@ -25,7 +25,7 @@ install_docker () {
 
 	#INSTALL DOCKER
 	dnf update -y
-	dnf install -y docker-ce docker-ce-cli container.io
+	dnf install -y docker-ce docker-ce-cli containerd.io
 
 	#usermod -aG docker $USER
 
