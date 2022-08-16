@@ -1,7 +1,7 @@
 Just a few bash scripts to automate process of installing Docker and Docker-Compose
 
 These can be used to install Docker/Docker-Compose on a fresh system. If already installed,
-script will update docker-compose binary on an installation.
+script will update docker-compose binary on an existing installation.
 
 Currently have scripts for:
 - Ubuntu 20.04
