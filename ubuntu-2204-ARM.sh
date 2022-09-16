@@ -43,7 +43,7 @@ install_docker () {
 download_compose () {
 	curl -fL https://github.com/docker/compose/releases/latest/download/docker-compose-linux-armv7 -o /usr/libexec/docker/cli-plugins/docker-compose && chmod +x /usr/libexec/docker/cli-plugins/docker-compose
 
-	curl -fL https://github.com/docker/compose-switch/releases/latest/download/docker-compose-linux-armv64 -o /usr/local/bin/compose-switch && chmod +x /usr/local/bin/compose-switch
+	curl -fL https://github.com/docker/compose-switch/releases/latest/download/docker-compose-linux-arm64 -o /usr/local/bin/compose-switch && chmod +x /usr/local/bin/compose-switch
 }
 
 upgrade_version_1 () {
